@@ -1,0 +1,58 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Aetheria 2x2 Building 01",
+    "description": "A towering neon-drenched skyscraper pierces the smog-filled sky, its holographic billboards and augmented reality interfaces pulsing with life.",
+    "navmapThumbnail": "assets/scene/32m_building_02_.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "GtrFrost",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "social"
+  ],
+  "scene": {
+    "parcels": [
+      "103,107",
+      "103,108",
+      "104,107",
+      "104,108"
+    ],
+    "base": "103,107"
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 1",
+      "default": true,
+      "position": {
+        "x": [
+          0,
+          3
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          3
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "rating": "T"
+}
